@@ -517,7 +517,7 @@ adams({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   })
 ;
 
-adams({ nomCom: "vv", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+adams({ nomCom: "open", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { repondre , msgRepondu , superUser, auteurMessage } = commandeOptions;
   
